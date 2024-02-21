@@ -263,7 +263,7 @@ export const projects = [
     tags: ["React JS", "Material UI", "MongoDB", "Node JS"],
     category: "Web App",
     github: "https://github.com/HareeshDhruva/Flipkart",
-    webapp: "https://flipkart-bjml8fevv-hareeshdhruva123-gmailcom.vercel.app",
+    webapp: "https://flipkart-beta.vercel.app",
   },
   {
     id: 2,
