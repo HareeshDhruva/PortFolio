@@ -25,11 +25,12 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
 function App() {
-  const [openModal, setOpenModal] = useState({ state: false, project: null })
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
+  const [currentTheme, setTheme] = useState(darkTheme);
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={currentTheme}>
       <Router >
-        <Navbar />
+        <Navbar currentTheme={currentTheme} setTheme={setTheme} />
         <Body>
           <HeroSection />
           <Wrapper>

@@ -1,9 +1,9 @@
 import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
-// import _default from '../../themes/default';
 
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
+    color: ${({theme}) => theme.text_primary};
     height: 80px;
     display: flex;
     align-items: center;
@@ -30,6 +30,7 @@ export const NavbarContainer = styled.div`
 export const NavLogo = styled(LinkR)`
     width: 80%;    
     padding: 0 6px;
+    color: ${({theme}) => theme.text_primary};
     display: flex;
     justify-content: start;
     align-items: center;
@@ -42,6 +43,7 @@ export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
     font-size: 18px;
+    color: ${({theme}) => theme.text_primary};
 `;
 export const NavItems = styled.ul`
     width: 100%;
@@ -51,7 +53,6 @@ export const NavItems = styled.ul`
     gap: 32px;
     padding: 0 6px;
     list-style: none;
-
     @media screen and (max-width: 768px) {
       display: none;
     }
@@ -216,3 +217,18 @@ export const MobileNavLogo = styled(LinkR)`
     padding: 0 0px;
   }
 `;
+
+export const Mode = styled.p`
+color: ${({ theme }) => theme.text_primary};
+font-weight: 500;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+:hover {
+  color: ${({ theme }) => theme.primary};
+}
+
+&.active {
+  border-bottom: 2px solid ${({ theme }) => theme.primary};
+}
+`
