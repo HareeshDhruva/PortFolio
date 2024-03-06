@@ -10,7 +10,7 @@ export const Bio = {
   github: "https://github.com/HareeshDhruva",
   resume:"https://drive.google.com/file/d/1Fzv6qyV-va8bdjXNQQ6fgGX3ddy2Os-W/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/hareesh-dhruva-797240296/",
-  twitter: "https://twitter.com/dhruva_hareesh",
+  twitter: "https://twitter.com/hareesh_dhruva",
   insta: "https://www.instagram.com/hareesh_dhruva/",
   facebook: "https://www.facebook.com/hareeshdhruva",
 };
@@ -263,7 +263,7 @@ export const projects = [
     tags: ["React JS", "Material UI", "MongoDB", "Node JS"],
     category: "Web App",
     github: "https://github.com/HareeshDhruva/Flipkart",
-    webapp: "https://flipkart-bjml8fevv-hareeshdhruva123-gmailcom.vercel.app",
+    webapp: "https://flipkart-beta.vercel.app",
   },
   {
     id: 2,
@@ -277,12 +277,4 @@ export const projects = [
     github: "https://github.com/HareeshDhruva/osm.git",
     webapp: "https://osm-beta.vercel.app",
   },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
 ];

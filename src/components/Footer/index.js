@@ -85,6 +85,8 @@ const Copyright = styled.p`
 `;
 
 function Footer() {
+  const date = new Date();
+  const presentYear = date.getFullYear();
   return (
     <FooterContainer>
       <FooterWrapper>
@@ -102,9 +104,8 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Hareesh Dhruva's. All rights reserved.
+          &copy; {presentYear} Hareesh Dhruva's. All rights reserved.
         </Copyright>
-
       </FooterWrapper>
     </FooterContainer>
   );

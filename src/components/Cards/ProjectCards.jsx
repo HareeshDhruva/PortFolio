@@ -94,7 +94,6 @@ const Date = styled.div`
     }
 `
 
-
 const Description = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.text_secondary + 99};
@@ -124,7 +123,7 @@ const Avatar = styled.img`
 
 const ProjectCards = ({project,setOpenModal}) => {
     return (
-        <Card onClick={() => setOpenModal({state: true, project: project})}>
+        <Card>
             <Image src={project.image}/>
             <Tags>
                 {project.tags?.map((tag, index) => (
@@ -141,7 +140,7 @@ const ProjectCards = ({project,setOpenModal}) => {
                     <Avatar src={member.img}/>
                 ))}
             </Members>
-            {/* <Button>View Project</Button> */}
+            <Button onClick={() => setOpenModal({state: true, project: project})}>View Project</Button>
         </Card>
     )
 }
