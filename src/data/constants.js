@@ -136,6 +136,10 @@ export const skills = [
       {
         name:"vercel",
         image:"https://encore.dev/assets/resources/vercel_cover.jpg"
+      },
+      {
+        name:"kubernates",
+        image:"https://github.com/kubernetes/kubernetes/blob/master/logo/logo_with_border.png?raw=true"
       }
     ],
   },
@@ -255,7 +259,7 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "Flipkart Clone",
+    title: "flipkart clone",
     date: "Jul 2023",
     description:
       "A Flipkart clone made with React JS, MongoDB, Node js, and Material UI. It has Real-time Database. Different Products Room Where Users Can Buy the Products. It Has A Signup System Where Users Can Create The Account and It Has A Login Page Where Users Can Log In With User Name Password.",
@@ -276,5 +280,17 @@ export const projects = [
     category: "Web App",
     github: "https://github.com/HareeshDhruva/osm.git",
     webapp: "https://osm-beta.vercel.app",
+  },
+  {
+    id: 3,
+    title: "Link up",
+    date: "Jul 2024",
+    description:
+      "Welcome to LinkUp, where connections happen effortlessly! Join a diverse community of users from across the globe to chat, share ideas, and build friendships in real-time. Whether you’re here to network, socialize, or unwind, LinkUp provides the perfect platform",
+    image:"https://res.cloudinary.com/sociladb/image/upload/v1720370614/samples/linkup/zlko3fw6e6khjqakvvou.png",
+    tags: ["Vite", "Tailwind CSS", "MongoDB", "Node JS"],
+    category: "Web App",
+    github: "https://github.com/HareeshDhruva/Linkup.git",
+    webapp: "https://linkup-z5pz.onrender.com",
   },
 ];
