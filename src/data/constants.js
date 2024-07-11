@@ -4,7 +4,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/HareeshDhruva",
-  resume:"https://drive.google.com/file/d/1-XPbgyC9xfEIAWmUlaycQRa2nqksrFqi/view?usp=sharing",
+  resume:"https://drive.google.com/file/d/1y9vpQbGelOvv9q3pOYHbY04oSiUeD6zd/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/hareesh-dhruva-797240296/",
   twitter: "https://twitter.com/hareesh_dhruva",
   insta: "https://www.instagram.com/hareesh_dhruva/",
@@ -254,6 +254,32 @@ export const education = [
 export const projects = [
   {
     id: 1,
+    title: "Link up",
+    date: "Jul 2024",
+    description:
+    "Welcome to LinkUp, where connections happen effortlessly! Join a diverse community of users from across the globe to chat, share ideas, and build friendships in real-time. Whether you’re here to network, socialize, or unwind, LinkUp provides the perfect platform",
+    image:
+    "https://res.cloudinary.com/sociladb/image/upload/v1720370614/samples/linkup/zlko3fw6e6khjqakvvou.png",
+    tags: ["Vite", "Tailwind CSS", "MongoDB", "Node JS"],
+    category: "Web App",
+    github: "https://github.com/HareeshDhruva/Linkup.git",
+    webapp: "https://linkup-z5pz.onrender.com",
+  },
+  {
+    id: 2,
+    title: "one social media",
+    date: "Jan 2024",
+    description:
+    "Connecting people, one post at a time. Welcome to one social media platform for sharing moments, connecting with friends, and discovering what matters to you. Join the community today and make every day memorable. #ConnectShareDiscover #SocialMediaRevolution #oms #one-social-media #oneSocialMedia #onesocialmedia #1socialmedia",
+    image:
+    "https://res.cloudinary.com/sociladb/image/upload/f_auto,q_auto/v1/profileUrl/bibpwc9ftwcz9pqluwnf",
+    tags: ["Next JS", "Material UI", "MongoDB", "Node JS", "TanStack Query"],
+    category: "Web App",
+    github: "https://github.com/HareeshDhruva/osm.git",
+    webapp: "https://osm-beta.vercel.app",
+  },
+  {
+    id: 3,
     title: "flipkart clone",
     date: "Jul 2023",
     description:
@@ -263,31 +289,5 @@ export const projects = [
     category: "Web App",
     github: "https://github.com/HareeshDhruva/Flipkart",
     webapp: "https://flipkart-beta.vercel.app",
-  },
-  {
-    id: 2,
-    title: "one social media",
-    date: "Jan 2024",
-    description:
-      "Connecting people, one post at a time. Welcome to one social media platform for sharing moments, connecting with friends, and discovering what matters to you. Join the community today and make every day memorable. #ConnectShareDiscover #SocialMediaRevolution #oms #one-social-media #oneSocialMedia #onesocialmedia #1socialmedia",
-    image:
-      "https://res.cloudinary.com/sociladb/image/upload/f_auto,q_auto/v1/profileUrl/bibpwc9ftwcz9pqluwnf",
-    tags: ["Next JS", "Material UI", "MongoDB", "Node JS", "TanStack Query"],
-    category: "Web App",
-    github: "https://github.com/HareeshDhruva/osm.git",
-    webapp: "https://osm-beta.vercel.app",
-  },
-  {
-    id: 3,
-    title: "Link up",
-    date: "Jul 2024",
-    description:
-      "Welcome to LinkUp, where connections happen effortlessly! Join a diverse community of users from across the globe to chat, share ideas, and build friendships in real-time. Whether you’re here to network, socialize, or unwind, LinkUp provides the perfect platform",
-    image:
-      "https://res.cloudinary.com/sociladb/image/upload/v1720370614/samples/linkup/zlko3fw6e6khjqakvvou.png",
-    tags: ["Vite", "Tailwind CSS", "MongoDB", "Node JS"],
-    category: "Web App",
-    github: "https://github.com/HareeshDhruva/Linkup.git",
-    webapp: "https://linkup-z5pz.onrender.com",
   },
 ];
