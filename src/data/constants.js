@@ -254,7 +254,7 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "Link up",
+    title: "Linkup",
     date: "Jul 2024",
     description:
     "Welcome to LinkUp, where connections happen effortlessly! Join a diverse community of users from across the globe to chat, share ideas, and build friendships in real-time. Whether you’re here to network, socialize, or unwind, LinkUp provides the perfect platform",
