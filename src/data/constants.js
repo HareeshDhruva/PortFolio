@@ -1,10 +1,10 @@
 export const Bio = {
   name: "Hareesh Dhruva",
-  roles: ["Full Stack Developer", "UI/UX Designer", "Programmer"],
+  roles: ["Full Stack Developer", "Devops Developer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/HareeshDhruva",
-  resume:"https://drive.google.com/file/d/1y9vpQbGelOvv9q3pOYHbY04oSiUeD6zd/view?usp=sharing",
+  resume:"https://drive.google.com/file/d/1eYZmqZYDdeL2tewKKEzhURB83JTrwFph/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/hareesh-dhruva-797240296/",
   twitter: "https://twitter.com/hareesh_dhruva",
   insta: "https://www.instagram.com/hareesh_dhruva/",
@@ -94,6 +94,10 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name:"Spring Boot",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/768px-Spring_Boot.svg.png"
+      }
     ],
   },
   {
@@ -253,19 +257,6 @@ export const education = [
 
 export const projects = [
   {
-    id: 1,
-    title: "Linkup",
-    date: "Jul 2024",
-    description:
-    "Welcome to LinkUp, where connections happen effortlessly! Join a diverse community of users from across the globe to chat, share ideas, and build friendships in real-time. Whether you’re here to network, socialize, or unwind, LinkUp provides the perfect platform",
-    image:
-    "https://res.cloudinary.com/sociladb/image/upload/v1720370614/samples/linkup/zlko3fw6e6khjqakvvou.png",
-    tags: ["Vite", "Tailwind CSS", "MongoDB", "Node JS"],
-    category: "Web App",
-    github: "https://github.com/HareeshDhruva/Linkup.git",
-    webapp: "https://linkup-z5pz.onrender.com",
-  },
-  {
     id: 2,
     title: "one social media",
     date: "Jan 2024",
@@ -279,6 +270,55 @@ export const projects = [
     webapp: "https://osm-beta.vercel.app",
   },
   {
+    id: 1,
+    title: "Linkup",
+    date: "Jul 2024",
+    description:
+    "Welcome to LinkUp, where connections happen effortlessly! Join a diverse community of users from across the globe to chat, share ideas, and build friendships in real-time. Whether you’re here to network, socialize, or unwind, LinkUp provides the perfect platform",
+    image:
+    "https://res.cloudinary.com/sociladb/image/upload/v1720370614/samples/linkup/zlko3fw6e6khjqakvvou.png",
+    tags: ["Vite", "Tailwind CSS", "MongoDB", "Node JS"],
+    category: "Web App",
+    github: "https://github.com/HareeshDhruva/Linkup.git",
+    webapp: "https://linkup-z5pz.onrender.com",
+  },
+  {
+    id: 4,
+    title: "testBuddy",
+    date: "Sep 2024",
+    description:
+      "A project that integrates the Razorpay payment gateway into a React.js frontend for secure transactions. Authentication is handled using a hard-coded bearer token generated via OTP API. The design is mobile-compatible, ensuring a responsive user experience. The project was submitted through a GitHub public repository",
+    image: "https://res.cloudinary.com/sociladb/image/upload/v1724093391/samples/razorpay/rezorpay_upvq0b.png",
+    tags: ["Vite","Tailwind CSS"],
+    category: "Web App",
+    github: "https://github.com/HareeshDhruva/Razorpay-payment-gateway.git",
+    webapp: "https://razorpay-payment-gateway-five.vercel.app",
+  },
+  {
+    id: 6,
+    title: "multi player sudoku",
+    date: "Oct 2024",
+    description:
+      "A multiplayer Sudoku game allows multiple players to collaborate or compete in solving a Sudoku puzzle",
+    image: "https://res.cloudinary.com/sociladb/image/upload/v1732641600/samples/sudoku/lkejnjcu9330sf46eaag.png",
+    tags: ["Vite","Socket io"],
+    category: "Web App",
+    github: "https://github.com/HareeshDhruva/sudoku.git",
+    webapp: "https://sudoku-pn4c.onrender.com/",
+  },
+  {
+    id: 5,
+    title: "k-FEE",
+    date: "Jul 2024",
+    description:
+      "This project showcases a scalable website built with Docker and Kubernetes. The application is containerized using Docker, ensuring consistency across different environments. Kubernetes is employed for orchestrating the deployment, scaling, and management of the application, allowing for robust performance and high availability.",
+    image: "https://res.cloudinary.com/sociladb/image/upload/v1732641203/samples/k-fee/phxsjhljmgmcfegghosi.png",
+    tags:  ["Next JS","MongoDB"],
+    category: "Web App",
+    github: "https://github.com/HareeshDhruva/k-fee.git",
+    webapp: "https://k-fee.vercel.app",
+  },
+  {
     id: 3,
     title: "flipkart clone",
     date: "Jul 2023",
@@ -289,5 +329,5 @@ export const projects = [
     category: "Web App",
     github: "https://github.com/HareeshDhruva/Flipkart",
     webapp: "https://flipkart-beta.vercel.app",
-  },
+  }
 ];
